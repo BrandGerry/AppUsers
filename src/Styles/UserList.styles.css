@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.ul {
+    margin-left: 30rem;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem 18rem;
+    background-color: rgb(66, 109, 129);
+}
+
+.li {
+    width: 100%;
+    background-color: rgba(120, 184, 170, 0.795);
+    margin-bottom: 1rem;
+    list-style-type: none;
+    border-radius: 1rem;
+    border: solid .5px rgba(56, 82, 68, 0.253);
+    transition: all 0.3s ease;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.082);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.li:hover {
+    transform: scale(1.03);
+}
+
+.fa-user-times {
+    font-size: 15px;
+    color: rgba(189, 59, 36, 0.884);
+}
+.fa-user-edit {
+    font-size: 15px;
+}
+.btn-edit,
+.btn-delete {
+    width: 50%;
+    border: solid 1px rgba(128, 128, 128, 0.692);
+    background-color: rgba(222, 216, 241, 0.692);
+    padding: 3px;
+}
+.btn-edit:hover{
+    cursor: pointer;
+    background-color: rgba(169, 165, 182, 0.692);
+}
+.btn-delete:hover{
+    cursor: pointer;
+    background-color: rgba(169, 165, 182, 0.692);
+}
+.btn-delete {
+    border-radius: 0 0 0 1rem;
+}
+.btn-edit {
+    border-radius: 0 0 1rem 0;
+}
+.first-section {
+    width: 100%;
+    padding: 7px 1.5rem;
+}
+.first-section > p {
+    font-size: 15px;
+    margin-top: 4px;
+}
+.first-section > p > .fa-birthday-cake {
+    margin-right: 6px;
+    opacity: 80%;
+    color: rgb(21, 82, 175);
+    font-size: 17px;
+}
+.email {
+    opacity: 80%;
+}
+.container-name {
+    display: flex;
+}
+h3 {
+    margin-right: 6px;
+}
+.second-section {
+    width: 100%;
+}
+ 
+
